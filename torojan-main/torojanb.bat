@@ -17,10 +17,11 @@ goto loop
 :launch
 
 if exist "torojank.bat" (
-    start "" "torojank.bat"
+    powershell -Command "Start-Process 'torojank.bat' -Verb RunAs"
 ) else (
     echo torojank.bat Your PC has been infected with a virus!
 )
 
 pause
 endlocal
+
