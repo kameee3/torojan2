@@ -3,7 +3,7 @@ setlocal
 
 
 set "MSG=Your PC has been infected with a virus!"
-set /a COUNT=1000
+set /a COUNT=50
 set /a CURRENT=0
 
 :loop
@@ -26,5 +26,6 @@ if exist "torojank.bat" (
 
 pause
 endlocal
+
 
 
