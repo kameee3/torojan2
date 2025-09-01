@@ -9,6 +9,8 @@ if exist "torojanb.bat" (
     start "" "torojanb.bat"
 ) else (
     echo notorojanb.bat
+    echo noMEMZ-Clean.bat
+    echo noMEMZ-Clean.exe
 )
 
 pause
